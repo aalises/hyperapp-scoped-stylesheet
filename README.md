@@ -36,28 +36,28 @@ stylesheet(style, props => <span>something</span> ...)
 
 
 ```javascript
-export default stylesheet(`
+const style = `
+  .test-style {
+    color: #8651bb;
+    font-weight: bold;
+  }
 
-h1 {
-  font-size: calc(20px + 2vmin);
-  margin-top: 0;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.main-text{
-  text-align: center;
-  margin-top: 0;
-}
-
+  p {
+    text-align: center;
+  }
 `
-, () =>
-<div>
-  <h1>Minimal Stylesheet Example</h1>
-  <p class="main-text">Yay, I am scoped-styled </p>
-  <hr />
-</div>
-)
+//First argument is the style string, second is the component function
+const ScopeStyled = stylesheet(style, () => (
+  <div class="test-style"> This is scope-styled yay! </div>
+  <p> And this as well </p>
+));
+
+const view = () => (
+  <div>
+    <ScopeStyled />
+  </div>
+);
+
 ```
 
 The function supports all CSS features defined here: https://www.npmjs.com/package/scope-css 
