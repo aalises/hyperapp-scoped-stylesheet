@@ -1,3 +1,12 @@
+# Hyperapp Scoped Stylesheet
+
+[![npm](https://img.shields.io/npm/v/hyperapp-scoped-stylesheet.svg)](https://www.npmjs.org/package/hyperapp-scoped-stylesheet) ![452 gzip][gzip-badge]
+
+[gzip-badge]: https://img.shields.io/badge/Size-691%20B-brightgreen.svg
+
+
+
+
 This HOF allows you to easily style Hyperapp views/components by adding styles / a scoped stylesheet that applies to that view only and its descendants.
 
 Basically it allows to use scoped css styling like Angular or [Vue does by adding a scoped stylesheet](https://vue-loader.vuejs.org/en/features/scoped-css.html)
