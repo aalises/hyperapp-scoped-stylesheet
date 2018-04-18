@@ -52,7 +52,7 @@ h1 {
 , () =>
 <div>
   <h1>Minimal Stylesheet Example</h1>
-  <p class="main-text">I am a scoped-styled indeed</p>
+  <p class="main-text">Yay, I am scoped-styled </p>
   <hr />
 </div>
 )
