@@ -2,6 +2,8 @@ This HOF allows you to easily style Hyperapp views/components by adding styles /
 
 Basically it allows to use scoped css styling like Angular or [Vue does by adding a scoped stylesheet](https://vue-loader.vuejs.org/en/features/scoped-css.html)
 
+### Demo
+[![Edit 7yk0kyy0jq](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/7yk0kyy0jq)
 
 ### Getting started
 
@@ -58,4 +60,5 @@ h1 {
 )
 ```
 
-The function supports all CSS features defined here: https://www.npmjs.com/package/scope-css
+The function supports all CSS features defined here: https://www.npmjs.com/package/scope-css 
+This project has been inspired by: https://github.com/k1r0s/preact-stylesheet-decorator
