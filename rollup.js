@@ -1,4 +1,5 @@
 import babel from 'rollup-plugin-babel';
+import uglify from 'rollup-plugin-uglify'
 
 export default {
   input: `hyperapp.dev.js`,
@@ -19,9 +20,10 @@ export default {
         ]
       ],
       "plugins": [
-        "external-helpers"
+        "external-helpers",
       ]
-    })
+    }),
+    uglify()
   ]
   
 }
