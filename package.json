@@ -1,0 +1,32 @@
+{
+  "name": "hyperapp-scoped-stylesheet",
+  "version": "1.0.0",
+  "description": "Easily style Hyperapp view functions / components",
+  "main": "dist/hyperapp-scoped-stylesheet.es.js",
+  "browser": "dist/lib/hyperapp-scoped-stylesheet.umd.js",
+  "module": "dist/hyperapp-scoped-stylesheet.es.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c rollup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aalises/hyperapp-scoped-stylesheet"
+  },
+  "keywords": [],
+  "author": "Albert Alises (@aalises)",
+  "license": "MIT",
+  "dependencies": {
+    "decamelize": "^1.2.0",
+    "hyperapp": "^1.2.5",
+    "scope-css": "^1.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.0.0",
+    "rollup": "^0.50.0",
+    "rollup-plugin-babel": "^3.0.2"
+  }
+}
