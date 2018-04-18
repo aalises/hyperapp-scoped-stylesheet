@@ -1,6 +1,6 @@
 {
   "name": "hyperapp-scoped-stylesheet",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Easily style Hyperapp view functions / components",
   "main": "dist/hyperapp-scoped-stylesheet.es.js",
   "browser": "dist/lib/hyperapp-scoped-stylesheet.umd.js",
