@@ -3,4 +3,4 @@ node_js:
   - "6"
   - "8"
 script:
-  - echo "npm run test && npm build"
+  - npm run test && npm build
