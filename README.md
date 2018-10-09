@@ -4,6 +4,7 @@
 
 [gzip-badge]: https://img.shields.io/badge/Size-691%20B-brightgreen.svg
 
+[![Build Status](https://travis-ci.org/aalises/hyperapp-scoped-stylesheet.svg?branch=master)](https://travis-ci.org/aalises/hyperapp-scoped-stylesheet)
 
 
 
