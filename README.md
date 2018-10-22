@@ -1,6 +1,6 @@
 # Hyperapp Scoped Stylesheet
 
-[![npm](https://img.shields.io/npm/v/hyperapp-scoped-stylesheet.svg)](https://www.npmjs.org/package/hyperapp-scoped-stylesheet) ![452 gzip][gzip-badge]
+[![npm](https://img.shields.io/npm/v/hyperapp-scoped-stylesheet.svg)](https://www.npmjs.org/package/hyperapp-scoped-stylesheet) ![452 gzip][gzip-badge] 
 
 [gzip-badge]: https://img.shields.io/badge/Size-691%20B-brightgreen.svg
 
